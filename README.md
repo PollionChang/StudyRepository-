@@ -164,12 +164,12 @@ For help, use /usr/bin/supervisord -h
 
 后记: 看到评论里很多人说搬瓦工自带了 SS 的一键安装功能。确实没错，搬瓦工安装的也是 python 版本的 SS。故出了一篇用 C 语言写的 SS 服务的搭建文章, 亲测 C 语言版本的占用内存更少并且速度比 python 版本的更快。
 
-##搭建 Strongswan 实现在 iOS 上连接 VPN
+## 搭建 Strongswan 实现在 iOS 上连接 VPN
 
-###Appstore搜索SuperWingy下载设置服务器IP 密码 即可
+### Appstore搜索SuperWingy下载设置服务器IP 密码 即可
 
----------
-#####（原文）
+ ******
+##### （原文）
 如果你只是需要在 Android, PC 上使用 VPN，那可以直接忽略此章内容， Shadowsocks 已经可以非常完美的帮助以上设备实现翻墙。 
 但是由于 iOS 上无法使用 Shadowsocks 所以需要使用 Strongswon 建立 IPsecVPN。
 
